@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+kira = { version = "0.8.5", features = ["symphonia"] }
+lazy_static = "1.4.0"
+symphonia-core = "0.5.3"
 vulkano = { version = "0.34", features = ["macros"] }
 vulkano-shaders = "0.34"
 winit = { version = "0.29", features = ["rwh_05"] }
